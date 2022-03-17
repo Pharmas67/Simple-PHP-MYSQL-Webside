@@ -19,7 +19,6 @@
                     <li><a href="home.php">Home</a></li>
                     <li><a href="about-us.php">About Us</a></li>
                     <li><a href="profile.php">Profile</a></li>
-                    <li><a href="chat.php">Chats</a></li>
                     <li><a href="includes/logout.inc.php">Log Out</a></li>
                 </ul>
             </nav>

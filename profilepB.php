@@ -3,6 +3,7 @@
     require 'includes/dbh.inc.php';
     require 'includes/functions.inc.php';
 ?>
+<main>
     <div class="background">   
         <div class="profile-img">
             <?php 
@@ -20,6 +21,7 @@
             </form>
         </div>
     </div>
+</main>
 <?php
     require 'footer.php';
 ?>

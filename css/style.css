@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    overflow: hidden;
 }
 html, body{
     font-family: Arial, Helvetica, sans-serif;
@@ -60,7 +59,7 @@ html, body{
 }
 .home-background{
     background-color:#191919;
-    height: 80vh;
+    height: auto;
 }
 .background{
     background-color:#191919;
@@ -76,9 +75,9 @@ html, body{
     display: flex;
     background-color: #191919;
     color: #ffffff;
-    padding: 10px;
+    padding: 50px;
     font-size: 50px;
-    margin:50px 10px 10px 200px;
+    margin:0px 10px 10px 200px;
     flex-direction: row;
     justify-content: flex-start;
 }
@@ -106,14 +105,12 @@ html, body{
     min-width: 500px;
     height: 100px;
 }
-
 .chgProfile-a{
     display: flex;
     align-items: center;
     justify-content: center;
     color: #000;
 }
-
 .profile-img{
     display: flex;
     padding: 10px;
@@ -121,5 +118,22 @@ html, body{
     justify-content: center;
     align-content: flex-start;
     flex-direction: column;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    padding:5%;
+}
+.main-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.textbox{
+    display: flex;
+    padding: 20px;
+}
+.textbox p{
+    padding: 20px;
 }
 @media screen and (min-width: 768px) {}

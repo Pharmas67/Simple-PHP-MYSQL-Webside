@@ -2,6 +2,7 @@
     require 'header.php';
     require 'includes/functions.inc.php';
 ?>
+<main>
     <div class="background">
         <div class="profileBg">
             <div class="line">
@@ -42,6 +43,7 @@
             </div>    
         </div>
     </div>
+</main>
 <?php
     require 'footer.php';
 ?>

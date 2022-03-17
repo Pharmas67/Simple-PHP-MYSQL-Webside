@@ -2,7 +2,7 @@
     require 'header.php';
     require 'includes/functions.inc.php';
 ?>
-
+<main>
     <div class="background">
         <div class="profileBg">
             <form action="includes/chgName.inc.php" method="POST" class="form">
@@ -13,6 +13,7 @@
             </form>
         </div>
     </div>
+</main>
 <?php
     require 'footer.php';
 ?>
